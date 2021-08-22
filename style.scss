@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
 
 $color-highlight: #ddda09;
+$color-gold: #a79a2d;
 $color-accent: #a0e7e5;
 $color-attention: #f57794;
 
@@ -289,6 +290,82 @@ html {
 }
 
 /* End of Section 3 */
+
+/* Section 4 */
+
+.footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #343a40;
+    padding: 4rem 0;
+    position: relative;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $color-gold;
+}
+
+.footer-description {
+    font-size: 1.4rem;
+    color: #888;
+    text-transform: uppercase;
+}
+
+.signup-form {
+    position: relative;
+    
+    &-input {
+        font-size: 1.7rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        color: $color-gold;
+        padding: 1rem;
+        
+        border: 2px solid $color-gold;
+        
+        &::placeholder {
+            text-shadow: 0.1rem 0.1rem 0.01rem #000;
+        }
+    }
+
+    &-btn {
+        position: absolute;
+        right: 0.3rem;
+        top: 0.3rem;
+        width: 4rem;
+        height: 4rem;
+        background-color: #333;
+        color: $color-gold;
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover {
+            background-color: #fff;
+            color: #333;
+            border: 2px solid $color-gold;
+        }
+    }
+}
+
+.copyright {
+    position: absolute;
+    bottom: 3rem;
+    color: #aaa;
+    font-size: 1.4rem;
+    text-align: center;
+
+    padding-top: 4rem;
+    width: 100%;
+    border-top: 1px solid #888;
+}
+
+/* End of Section 4 */
 
 
 .color-accent {
