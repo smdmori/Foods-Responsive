@@ -531,7 +531,7 @@ html {
 /* End of Section 4 */
 .heading-accent {
   color: #a79a2d;
-  font-size: 7rem;
+  font-size: 12rem;
   font-weight: 900;
 }
 
@@ -565,6 +565,9 @@ html {
   .section-heading {
     font-size: 9rem;
     margin: 0 5rem;
+  }
+  .heading-accent {
+    font-size: 9rem;
   }
   .section-1-icons i {
     font-size: 25rem;
@@ -606,6 +609,9 @@ html {
   .section-heading {
     font-size: 7rem;
     margin: 0 10rem;
+  }
+  .heading-accent {
+    font-size: 7rem;
   }
   .section-1-icons i {
     font-size: 20rem;
